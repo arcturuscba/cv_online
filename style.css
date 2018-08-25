@@ -1,0 +1,117 @@
+/* Reglas generales Reglas generales  Reglas generales  Reglas generales  */
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #eae7e7;
+}
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+/* Header and Section  Header and Section Header and Section */
+header {
+    background-color: #155E63;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+header h1 {
+    margin: 0;
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+section {
+    padding: 15px 15px;
+    margin-top: 45px;
+    margin-left: 55px;
+    width: 15%;
+    height: 900px;
+    float: left;
+    display: inline-block;
+
+}
+
+section article {
+  margin: 10px;
+  padding: 18px 18px;
+  background: #f9f8ed;
+  border: 2px solid #f9f8ed;
+  display:  block;
+  position: relative;
+}
+
+aside {
+  width: 80%;
+  float: right;
+  margin-top: 45px;
+}
+
+/* Aside Aside Aside Aside Aside Aside Aside Aside  */
+aside .item_cv {
+    background-color: #f9f8eb;
+    padding: 22px 22px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    padding: 40px;
+    background: #f9f8ed;
+    border: 2px solid #f9f8ed;
+    display:  inline-block;
+    width: 70%;
+    position: relative;
+}
+
+
+.linea_articulos_aside {
+  height: 3px;
+  background-color: #6A9C78;
+}
+
+.linea_datos_personales {
+  border-bottom-style: dashed;
+  background-color:#c4e3cb;
+}
+
+#portfolio1{
+  list-style-image: url('img/portfolio01.png');
+  float: left;
+  width: 15%;
+  margin-left: 18%;
+  margin-top: 3%;
+}
+
+#portfolio2{
+  list-style-image: url('img/portfolio02.png');
+  float: left;
+  width: 15%;
+  margin-top: 3%;
+}
+
+#portfolio3{
+  list-style-image: url('img/portfolio03.png');
+  float: left;
+  width: 15%;
+  margin-top: 3%;
+}
+
+#portfolio4{
+  list-style-image: url('img/portfolio04.png');
+  float: left;
+  width: 15%;
+  margin-top: 3%;
+  margin-right: 8%;
+}
+
+/* Footer Footer Footer Footer Footer Footer Footer */
+footer {
+  background-color: #155E63;
+  position: relative;
+  padding: 5px;
+  clear: both;
+}
